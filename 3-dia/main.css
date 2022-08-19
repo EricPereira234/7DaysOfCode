@@ -16,33 +16,16 @@ section{
   
     width: 100%;
     margin-top: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.res{
-    color: #3b3b3b;
-    padding: 10px;
     font-size: 30px;
-    margin-bottom: 10px;
-    border: 3px solid #FFD21C;
-    border-radius: 20px;
-}
-.btn{
-    background-color: #FFD21C;
-    color: rgb(68, 68, 68);
-    padding: 5px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 3px solid #3b3b3b;
-}
-input{
     text-align: center;
+    margin-bottom: 10px;
 }
+
 footer{
     background-color: #3b3b3b;
     width: 100%;
     color: #fff;
     padding: 2px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 245px;
 }
