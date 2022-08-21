@@ -20,7 +20,7 @@ function Jogar() {
         }
         // aqui limpa o select
         numero = window.document.getElementById('numero').value = ""
-        alert("Errado! voçê tem mais uma chance!");
+        alert("Errado! você tem mais uma chance!");
         //aqui o for dá mais duas chances!
         numero = prompt('digite aqui o proximo valor !')
     }
