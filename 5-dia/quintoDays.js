@@ -17,7 +17,7 @@ while(adicionarMais != "não"){
     if (adicionarMais === "não"){  //se o texto lido for "não", para poder sair do while
         break;
     }
-	
+	// se a condição do while for diferente de "não" vai rodar esse bloco
     // nesta parte é adicionado as compras para cada array
     comida = prompt("Qual comida você deseja inserir?");
     categoria = prompt("Em qual categoria essa comida se encaixa: 'frutas', 'laticínios', 'doces' ou 'congelados'?");
