@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>7DaysOfCode</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'> 
+</head>
+
+<body>
+    <header>7DaysOfCode</header>
+    <section>
+        <article>
+          
+            <div >
+              <input type='text' id='area' readonly value='0' />
+              <br /><br />
+              <button onclick='Numero(this)' >1</button>
+              <button onclick='Numero(this)' >2</button>
+              <button onclick='Numero(this)' >3</button>
+              <button onclick='Numero(this)' >4</button>
+              <br /><br />
+              <button onclick='Numero(this)' >5</button>
+              <button onclick='Numero(this)' >6</button>
+              <button onclick='Numero(this)' >7</button>
+              <button onclick='Numero(this)' >8</button>
+              <br /><br />
+              <button onclick='Numero(this)' >9</button>
+              <button onclick='Numero(this)' >0</button>
+              <button onclick='setDecimal(this,true)' id="dec">.</button>
+              <button onclick='Operacao(this)' id='sum'>+</button>
+              <br /><br />
+              <button onclick='Operacao(this)' id='sustract'>-</button>
+              <button onclick='Operacao(this)' id='multi'>*</button>
+              <button onclick='Operacao(this)' id='divide'>/</button>
+              <button onclick='Limpar()' id='C'>C</button>
+              <br /><br />
+              <button onclick='calcule(this)' id='calcular' style='width:190px; background-color: brown; color: #fff;'>=</button>
+            </div>
+          
+        </article>
+      </section>
+      
+    <footer>
+        &copy;Eric Pereira
+    </footer>
+</body>
+<script src='setimoDays.js'></script>
+</html>
